@@ -1,7 +1,4 @@
-var table;
-while(!table.isInteger) {
-	table = prompt('Pick a number to be multiplied');
-}	// Unit of table
+var table = prompt('Pick a number to be multiplied');             // Unit of table
 var msg = '<h2>Multiplication Table</h2>';              // Message
 
 
