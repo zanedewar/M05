@@ -1,4 +1,7 @@
-var table = prompt('Pick a number to be multiplied');             // Unit of table
+var table;
+do {
+	table = prompt('Pick a number to be multiplied between 0 and 10');
+} while(table < 0 || table > 10);	// Unit of table
 var msg = '<h2>Multiplication Table</h2>';              // Message
 
 
